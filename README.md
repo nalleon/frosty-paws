@@ -3,7 +3,7 @@
 # frosty-paws
 
 <div align="center">
-    <img src="./web/src/assets/img/logo.png">
+    <img src="./img/logo.png">
 </div>
 
 ## Índice
