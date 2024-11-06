@@ -27,7 +27,9 @@
 <br>
 
 ### Guía de estilos
-
+<div align="center">
+    <img src="./img/color-palette.png">
+</div>
 
 <br>
 
