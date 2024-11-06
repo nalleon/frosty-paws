@@ -9,17 +9,16 @@
 ## Índice
 - [Herramientas utilizadas](#)
 - [Wireframe](#)
-- [Paleta de colores](#)
+- [Guía de estilos](#)
 
 
 ### Herramientas utilizadas
 
 
-
 ### Wireframe
 
 
-### Paleta de colores
+### Guía de estilos
 
 
 </div>
