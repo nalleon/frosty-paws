@@ -1,0 +1,48 @@
+/**
+* Blue: #A7D8F2
+* Light Brown: #D8B172
+* Brown: #AB8152
+* Yellow: #EBE2B1
+* White: #EBEBEB
+*/
+header {
+    background-color: #D8B172;
+}
+
+
+header h2 {
+    color: #ebebeb;
+}
+
+header .bread {
+    background-color: #EBE2B1;
+}
+
+body {
+    background-color: #ebebeb;
+}
+
+.search-button {
+    background-color: #ebebeb;
+    color: black;
+    border-radius: 10em;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 0 0 black;
+}
+  
+.search-button:hover {
+    transform: translateY(-4px) translateX(-2px);
+    background-color: #ebebeb;
+    color: black;
+    box-shadow: 2px 5px 0 0 #AB8152;
+};
+  
+.search-button:active {
+    transform: translateY(2px) translateX(1px);
+    background-color: #ebebeb;
+    color: black;
+    box-shadow: 2px 5px 0 0 #AB8152;
+};
