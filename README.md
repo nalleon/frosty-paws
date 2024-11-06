@@ -7,18 +7,28 @@
 </div>
 
 ## Índice
-- [Herramientas utilizadas](#)
-- [Wireframe](#)
-- [Guía de estilos](#)
+- [Herramientas utilizadas](#herramientas-utilizadas)
+- [Wireframe](#wireframe)
+- [Guía de estilos](#guía-de-estilos)
 
 
 ### Herramientas utilizadas
 
+<br>
 
 ### Wireframe
 
+<div align="center">
+    <img src="./pre-project/sketch/home.png">
+    <img src="./pre-project/sketch/mobile.png">
+</div>
+
+
+<br>
 
 ### Guía de estilos
 
+
+<br>
 
 </div>
