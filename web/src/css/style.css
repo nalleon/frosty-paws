@@ -64,3 +64,8 @@ body {
     background-size: 65px 55px;
     background-repeat: repeat-x;
 }
+
+body img {
+    height: 500px;
+    width: 100px;
+}
