@@ -18,10 +18,6 @@ header .bread {
     background-color: #EBE2B1;
 }
 
-body {
-    background-color: #ebebeb;
-}
-
 .search-button {
     background-color: #ebebeb;
     color: black;
@@ -32,17 +28,39 @@ body {
     transition: all 0.3s ease-in-out;
     box-shadow: 0 0 0 0 black;
 }
-  
+
 .search-button:hover {
     transform: translateY(-4px) translateX(-2px);
     background-color: #ebebeb;
     color: black;
     box-shadow: 2px 5px 0 0 #AB8152;
-};
-  
+}
+
+
+
 .search-button:active {
     transform: translateY(2px) translateX(1px);
     background-color: #ebebeb;
     color: black;
     box-shadow: 2px 5px 0 0 #AB8152;
-};
+}
+
+body {
+    background-color: #ebebeb;
+}
+
+.bread {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.bread::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    opacity: 0.1;
+    background-image: url(../assets/img/bg.png);
+    background-size: 65px 55px;
+    background-repeat: repeat-x;
+}
