@@ -1,5 +1,6 @@
 {
     "conventionalCommits.scopes": [
-        "forsty-paws"
+        "forsty-paws",
+        "frosty-paws"
     ]
 }
