@@ -69,3 +69,21 @@ body img {
     height: 500px;
     width: 100px;
 }
+
+
+.btn-primary {
+    background-color: #AB8152 !important; 
+    border-color: #AB8152 !important; 
+}
+
+
+.btn-primary:hover {
+    background-color: #8C6C48 !important;
+    border-color: #8C6C48 !important;
+}
+.card-img-top {
+    width: 100%;
+    height: auto;
+    max-height: 200px; 
+    object-fit: cover; 
+}
