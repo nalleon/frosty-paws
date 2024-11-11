@@ -19,31 +19,27 @@ header .bread {
 }
 
 .search-button {
-    background-color: #ebebeb;
+    background-color: white;
     color: black;
     border-radius: 10em;
     font-size: 17px;
     font-weight: 600;
+    padding: 1em 2em;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
+    border: 1px solid black;
     box-shadow: 0 0 0 0 black;
-}
-
-.search-button:hover {
+  }
+  
+  .search-button:hover {
     transform: translateY(-4px) translateX(-2px);
-    background-color: #ebebeb;
-    color: black;
-    box-shadow: 2px 5px 0 0 #AB8152;
-}
-
-
-
-.search-button:active {
+    box-shadow: 2px 5px 0 0 black;
+  };
+  
+  .search-button:active {
     transform: translateY(2px) translateX(1px);
-    background-color: #ebebeb;
-    color: black;
-    box-shadow: 2px 5px 0 0 #AB8152;
-}
+    box-shadow: 0 0 0 0 black;
+  };
 
 body {
     background-color: #ebebeb;
@@ -78,7 +74,7 @@ body img {
     height: 300px;
     -webkit-box-shadow: 1px 1px 12px #000;
     box-shadow: 1px 1px 12px #000;
-    perspective: 2000px;
+    perspective: 1400px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -94,8 +90,9 @@ body img {
 
 .cover {
     top: 0;
+    background-color: #fbfbfb;
+    border: 4px solid #A7D8F2;
     position: absolute;
-    background-color: #A7D8F2;
     width: 100%;
     height: 100%;
     border-radius: 10px;
@@ -134,15 +131,6 @@ body img {
     border-radius: 5px;
 }
 
-.btn-primary {
-    background-color: #AB8152 !important; 
-    border-color: #AB8152 !important; 
-}
-
-.btn-primary:hover {
-    background-color: #8C6C48 !important;
-    border-color: #8C6C48 !important;
-}
 .card-img-top {
     width: 100%;
     height: auto;
