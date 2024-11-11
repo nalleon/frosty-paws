@@ -82,6 +82,7 @@ body img {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    flex-direction: column;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
@@ -123,8 +124,7 @@ body img {
     transform: rotatey(-80deg);
 }
 
-p {
-    font-size: 20px;
+.book p {
     font-weight: bolder;
 }
 
