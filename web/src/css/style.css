@@ -5,6 +5,7 @@
 * Yellow: #EBE2B1
 * White: #EBEBEB
 */
+
 header {
     background-color: #D8B172;
 }
@@ -136,4 +137,13 @@ body img {
     height: auto;
     max-height: 200px; 
     object-fit: cover; 
+}
+
+button {
+    background-color: #AB8152 !important; 
+    border-color: #AB8152 !important; 
+}
+button:hover {
+    background-color: #8C6C48 !important;
+    border-color: #8C6C48 !important;
 }
