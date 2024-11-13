@@ -1,0 +1,2 @@
+const o={cookiesBtn:document.getElementById("acceptCookies"),cookieModal:document.getElementById("cookieModal"),cookiesAccepted:localStorage.getItem("cookiesAccepted")};o.cookiesAccepted||(window.onload=function(){new bootstrap.Modal(o.cookieModal,{keyboard:!1}).show()},o.cookiesBtn.addEventListener("click",function(){localStorage.setItem(o.cookiesBtn,"true"),bootstrap.Modal.getInstance(o.cookieModal).hide()}));
+//# sourceMappingURL=index.aa90fa8a.js.map
