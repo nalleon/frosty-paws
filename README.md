@@ -11,9 +11,14 @@
 - [Wireframe](#wireframe)
 - [Guía de estilos](#guía-de-estilos)
 
+___
 
 ### Herramientas utilizadas
 
+- Balsamiq
+- Bootstrap
+
+___
 <br>
 
 ### Wireframe
@@ -29,6 +34,7 @@
 ### Guía de estilos
 <div align="center">
     <img src="./img/color-palette.png">
+    
 </div>
 
 <br>
