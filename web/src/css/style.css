@@ -166,6 +166,22 @@ body img {
     }
 }
 
-.carousel-btn, span {
+.carousel-btn {
     background-color: #A7D8F2 !important;
+}
+
+.subscription-btn {
+    background-color: #D8B172 !important;
+    color: white !important;
+}
+
+.subscription-btn:hover {
+    background-color: #ebebeb !important;
+    border: 1px solid #D8B172 !important;
+    color: rgb(0, 0, 0) !important;
+}
+
+.custom-card-text{
+    text-align: justify;
+    
 }
