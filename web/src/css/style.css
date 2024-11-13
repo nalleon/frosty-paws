@@ -131,6 +131,9 @@ body img {
     color: rgb(0, 0, 0) !important;
 }
 
+footer {
+    background-color: #EBE2B1;
+}
 
 @keyframes toWhite {
     0% {
