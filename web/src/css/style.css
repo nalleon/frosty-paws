@@ -1,3 +1,7 @@
+/*
+* Shared styles in all pages
+*/
+
 /**
 * Blue: #A7D8F2
 * Light Brown: #D8B172
@@ -40,83 +44,6 @@ body {
     background-repeat: repeat-x;
 }
 
-body img {
-    height: 500px;
-    width: 100px;
-}
-
-.book {
-    margin: auto;
-    position: relative;
-    border-radius: 10px;
-    width: 220px;
-    height: 300px;
-    -webkit-box-shadow: 1px 1px 12px #000;
-    box-shadow: 1px 1px 12px #000;
-    perspective: 1400px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    flex-direction: column;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    color: #000;
-}
-
-.cover {
-    top: 0;
-    background-color: #fbfbfb;
-    border: 4px solid #A7D8F2;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-    cursor: pointer;
-    -webkit-transition: all 0.5s;
-    transition: all 0.5s;
-    -webkit-transform-origin: 0;
-    -ms-transform-origin: 0;
-    transform-origin: 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-}
-
-.book:hover .cover {
-    -webkit-transition: all 0.5s;
-    transition: all 0.5s;
-    -webkit-transform: rotatey(-80deg);
-    -ms-transform: rotatey(-80deg);
-    transform: rotatey(-80deg);
-}
-
-.book p {
-    font-weight: bolder;
-}
-
-.cover img {
-    width: 100%;
-    height: 100%;
-    border-radius: 5px;
-}
-
-.card-img-top {
-    width: 100%;
-    height: auto;
-    max-height: 300px; 
-    object-fit: cover; 
-}
-
 
 .search-button {
     background-color: #EBEBEB !important; 
@@ -142,11 +69,11 @@ body img {
     box-shadow: 0 0 0 0 #8C6C48;
 };
 
-.review-col img {
-    margin-left: 10%;
-    width: 500px;
-    height: 220px;
+body img {
+    height: 500px;
+    width: 100px;
 }
+
 
 .nav-item  a{
     color: grey;
@@ -166,6 +93,3 @@ body img {
     }
 }
 
-.carousel-btn, span {
-    background-color: #A7D8F2 !important;
-}
