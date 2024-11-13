@@ -154,3 +154,21 @@ button:hover {
     width: 500px;
     height: 220px;
 }
+
+.nav-item  a{
+    color: grey;
+}
+
+.nav-item:hover a {
+    animation: toWhite 0.4s ease-out;
+    color: white;
+}
+
+@keyframes toWhite {
+    0% {
+        color: gray;
+    }
+    100% {
+        color: white;
+    }
+}
