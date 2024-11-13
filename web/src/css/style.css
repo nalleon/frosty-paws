@@ -117,15 +117,10 @@ body img {
     object-fit: cover; 
 }
 
-button {
+
+.search-button {
     background-color: #EBEBEB !important; 
     border-color: #AB8152; 
-}
-button:hover {
-    background-color: #8C6C48;
-    border-color: #8C6C48;
-}
-.search-button {
     color: black !important;
     border-radius: 10em;
     font-size: 17px;
@@ -169,4 +164,8 @@ button:hover {
     100% {
         color: white;
     }
+}
+
+.carousel-btn, span {
+    background-color: #A7D8F2 !important;
 }
