@@ -118,16 +118,15 @@ body img {
 }
 
 button {
-    background-color: #EBEBEB ; 
-    border-color: #AB8152 !important; 
+    background-color: #EBEBEB !important; 
+    border-color: #AB8152; 
 }
 button:hover {
-    background-color: #8C6C48 !important;
-    border-color: #8C6C48 !important;
+    background-color: #8C6C48;
+    border-color: #8C6C48;
 }
 .search-button {
-    background-color: white;
-    color: black;
+    color: black !important;
     border-radius: 10em;
     font-size: 17px;
     font-weight: 600;
@@ -139,18 +138,35 @@ button:hover {
 }
 
 .search-button:hover {
-
     transform: translateY(-4px) translateX(-2px);
-    box-shadow: 2px 5px 0 0  #EBEBEB;
+    box-shadow: 2px 5px 0 0  #8C6C48;
 };
 
 .search-button:active {
     transform: translateY(2px) translateX(1px);
-    box-shadow: 0 0 0 0 #EBEBEB;
+    box-shadow: 0 0 0 0 #8C6C48;
 };
 
 .container-reviews img {
     margin-left: 10%;
     width: 500px;
     height: 220px;
+}
+
+.nav-item  a{
+    color: grey;
+}
+
+.nav-item:hover a {
+    animation: toWhite 0.4s ease-out;
+    color: white;
+}
+
+@keyframes toWhite {
+    0% {
+        color: gray;
+    }
+    100% {
+        color: white;
+    }
 }
