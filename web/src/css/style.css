@@ -139,6 +139,7 @@ body img {
 }
 
 .container-reviews img {
-    width: 100%;
+    margin-left: 10%;
+    width: 500px;
     height: 220px;
 }
