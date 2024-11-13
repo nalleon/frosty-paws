@@ -1,0 +1,24 @@
+/*
+* Service
+*/
+.card-img-top {
+    width: 100%;
+    height: auto;
+    max-height: 300px; 
+    object-fit: cover; 
+}
+
+.subscription-btn {
+    background-color: #D8B172 !important;
+    color: white !important;
+}
+
+.subscription-btn:hover {
+    background-color: #ebebeb !important;
+    border: 1px solid #D8B172 !important;
+    color: rgb(0, 0, 0) !important;
+}
+
+.custom-card-text{
+    text-align: justify;
+}
