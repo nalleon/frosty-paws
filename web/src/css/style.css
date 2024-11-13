@@ -10,6 +10,11 @@
 * White: #EBEBEB
 */
 
+html, footer {
+    background-color: #EBE2B1;
+}
+
+
 header {
     background-color: #D8B172;
 }
@@ -131,9 +136,11 @@ body img {
     color: rgb(0, 0, 0) !important;
 }
 
-footer {
-    background-color: #EBE2B1;
+
+.carousel-btn {
+    background-color: #A7D8F2 !important;
 }
+
 
 @keyframes toWhite {
     0% {
