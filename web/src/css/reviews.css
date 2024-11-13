@@ -1,2 +1,166 @@
+/*
+* Shared styles in all pages
+*/
+
+/**
+* Blue: #A7D8F2
+* Light Brown: #D8B172
+* Brown: #AB8152
+* Yellow: #EBE2B1
+* White: #EBEBEB
+*/
+
+html, footer {
+    background-color: #EBE2B1;
+}
 
 
+header {
+    background-color: #D8B172;
+}
+
+
+header h2 {
+    color: #ebebeb;
+}
+
+header .bread {
+    background-color: #EBE2B1;
+}
+
+
+body {
+    background-color: #ebebeb;
+    font-family: 'Times New Roman', Times, serif !important;
+}
+
+.bread {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.bread::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    opacity: 0.1;
+    background-image: url(../assets/img/bg.png);
+    background-size: 65px 55px;
+    background-repeat: repeat-x;
+}
+
+
+.search-button {
+    background-color: #EBEBEB !important;
+    border-color: #AB8152;
+    color: black !important;
+    border-radius: 10em;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 1em 2em;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid black;
+    box-shadow: 0 0 0 0 black;
+}
+
+.search-button:hover {
+    transform: translateY(-4px) translateX(-2px);
+    box-shadow: 2px 5px 0 0 #8C6C48;
+}
+
+;
+
+.search-button:active {
+    transform: translateY(2px) translateX(1px);
+    box-shadow: 0 0 0 0 #8C6C48;
+}
+
+;
+
+body img {
+    height: 500px;
+    width: 100px;
+}
+
+
+.nav-item a {
+    color: grey;
+}
+
+.nav-item:hover a {
+    animation: toWhite 0.4s ease-out;
+    color: white;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #D8B172;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+#myBtn:hover {
+    background-color: #555;
+}
+
+.accept-btn {
+    background-color: #D8B172 !important;
+    color: white !important;
+}
+
+.accept-btn:hover {
+    background-color: #AB8152 !important;
+    border: 1px solid #D8B172 !important;
+}
+
+
+.cancel-btn {
+    background-color: #ebebeb !important;
+    border: 1px solid #D8B172 !important;
+}
+
+.cancel-btn:hover {
+    background-color: rgb(180, 180, 180) !important;
+    border: 1px solid #D8B172 !important;
+    color: rgb(0, 0, 0) !important;
+}
+
+
+.carousel-btn {
+    background-color: #A7D8F2 !important;
+}
+
+
+@keyframes toWhite {
+    0% {
+        color: gray;
+    }
+
+    100% {
+        color: white;
+    }
+}
+
+.carousel-item img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    object-fit: contain;
+}
+
+@media (max-width: 768px) {
+    .carousel-item img {
+        max-width: 90%;
+    }
+}
