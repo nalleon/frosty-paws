@@ -26,7 +26,7 @@ header .bread {
 
 body {
     background-color: #ebebeb;
-    font-family:'Times New Roman', Times, serif !important;
+    font-family: 'Times New Roman', Times, serif !important;
 }
 
 .bread {
@@ -47,8 +47,8 @@ body {
 
 
 .search-button {
-    background-color: #EBEBEB !important; 
-    border-color: #AB8152; 
+    background-color: #EBEBEB !important;
+    border-color: #AB8152;
     color: black !important;
     border-radius: 10em;
     font-size: 17px;
@@ -62,13 +62,17 @@ body {
 
 .search-button:hover {
     transform: translateY(-4px) translateX(-2px);
-    box-shadow: 2px 5px 0 0  #8C6C48;
-};
+    box-shadow: 2px 5px 0 0 #8C6C48;
+}
+
+;
 
 .search-button:active {
     transform: translateY(2px) translateX(1px);
     box-shadow: 0 0 0 0 #8C6C48;
-};
+}
+
+;
 
 body img {
     height: 500px;
@@ -76,7 +80,7 @@ body img {
 }
 
 
-.nav-item  a{
+.nav-item a {
     color: grey;
 }
 
@@ -94,21 +98,45 @@ body img {
     font-size: 18px;
     border: none;
     outline: none;
-    background-color:  #D8B172;
+    background-color: #D8B172;
     color: white;
     cursor: pointer;
     padding: 15px;
     border-radius: 4px;
-  }
-  
-  #myBtn:hover {
+}
+
+#myBtn:hover {
     background-color: #555;
-  }
+}
+
+.accept-btn {
+    background-color: #D8B172 !important;
+    color: white !important;
+}
+
+.accept-btn:hover {
+    background-color: #AB8152 !important;
+    border: 1px solid #D8B172 !important;
+}
+
+
+.cancel-btn {
+    background-color: #ebebeb !important;
+    border: 1px solid #D8B172 !important;
+}
+
+.cancel-btn:hover {
+    background-color: rgb(180, 180, 180) !important;
+    border: 1px solid #D8B172 !important;
+    color: rgb(0, 0, 0) !important;
+}
+
 
 @keyframes toWhite {
     0% {
         color: gray;
     }
+
     100% {
         color: white;
     }

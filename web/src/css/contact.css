@@ -1,26 +1,3 @@
-.accept-btn {
-    background-color: #D8B172 !important;
-    color: white !important;
-}
-
-.accept-btn:hover {
-    background-color: #AB8152 !important;
-    border: 1px solid #D8B172 !important;
-}
-
-
-.cancel-btn {
-    background-color: #ebebeb !important;
-    border: 1px solid #D8B172 !important;
-}
-
-.cancel-btn:hover {
-    background-color: rgb(180, 180, 180) !important;
-    border: 1px solid #D8B172 !important;
-    color: rgb(0, 0, 0) !important;
-}
-
-
 .section-card {
     background-color: #ffffff;
     border-radius: 10px;
