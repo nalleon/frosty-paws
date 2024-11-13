@@ -19,28 +19,6 @@ header .bread {
     background-color: #EBE2B1;
 }
 
-.search-button {
-    background-color: white;
-    color: black;
-    border-radius: 10em;
-    font-size: 17px;
-    font-weight: 600;
-    padding: 1em 2em;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
-    border: 1px solid black;
-    box-shadow: 0 0 0 0 black;
-  }
-  
-  .search-button:hover {
-    transform: translateY(-4px) translateX(-2px);
-    box-shadow: 2px 5px 0 0 black;
-  };
-  
-  .search-button:active {
-    transform: translateY(2px) translateX(1px);
-    box-shadow: 0 0 0 0 black;
-  };
 
 body {
     background-color: #ebebeb;
@@ -140,10 +118,33 @@ body img {
 }
 
 button {
-    background-color: #AB8152 !important; 
+    background-color: #EBEBEB ; 
     border-color: #AB8152 !important; 
 }
 button:hover {
     background-color: #8C6C48 !important;
     border-color: #8C6C48 !important;
 }
+.search-button {
+    background-color: white;
+    color: black;
+    border-radius: 10em;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 1em 2em;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid black;
+    box-shadow: 0 0 0 0 black;
+}
+
+.search-button:hover {
+
+    transform: translateY(-4px) translateX(-2px);
+    box-shadow: 2px 5px 0 0  #EBEBEB;
+};
+
+.search-button:active {
+    transform: translateY(2px) translateX(1px);
+    box-shadow: 0 0 0 0 #EBEBEB;
+};
